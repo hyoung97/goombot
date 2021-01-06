@@ -21,10 +21,8 @@ async def on_message(message):
         await message.channel.send("Goomba!")
     if message.content == "Goomba!":
         await message.channel.send("Ah yes, I know of those lads.")
-    if message.content == "!glerbTime":
-        await message.channel.send("30 seconds of torch turn off torch and wait 45 seconds. Glerb. Enjoy.")
     if message.content == "!goom":
-        await message.channel.send("Fucking GOOM!")
+        await message.channel.send("GOOM!")
     if "marco" in message.content.lower():
         await message.channel.send("Pink Sus. @Pink Crewmate")
     if "hunter" in message.content.lower():
